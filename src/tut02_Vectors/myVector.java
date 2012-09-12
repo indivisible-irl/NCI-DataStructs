@@ -1,4 +1,4 @@
-package tut02_VectorExample;
+package tut02_Vectors;
 
 import java.util.Collections;
 import java.util.Vector;

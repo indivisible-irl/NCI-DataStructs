@@ -1,4 +1,4 @@
-package tut02_VectorExample;
+package tut02_Vectors;
 
 public class TestVector {
 	

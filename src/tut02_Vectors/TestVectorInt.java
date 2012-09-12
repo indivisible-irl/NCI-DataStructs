@@ -1,4 +1,4 @@
-package tut01_VectorIntExample;
+package tut02_Vectors;
 
 import java.util.Collections;
 import java.util.Iterator;
