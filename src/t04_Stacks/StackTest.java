@@ -1,4 +1,4 @@
-package tut04_Stacks;
+package t04_Stacks;
 
 import java.util.Stack;
 

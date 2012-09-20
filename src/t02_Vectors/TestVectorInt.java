@@ -1,4 +1,4 @@
-package tut02_Vectors;
+package t02_Vectors;
 
 import java.util.Collections;
 import java.util.Iterator;

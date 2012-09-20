@@ -1,4 +1,4 @@
-package tut01_GettingStarted;
+package t01_GettingStarted;
 
 /**
  * Most basic of basics

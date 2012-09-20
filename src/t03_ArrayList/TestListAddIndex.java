@@ -1,4 +1,4 @@
-package lect03_ArrayLists;
+package t03_ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
