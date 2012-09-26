@@ -51,6 +51,7 @@ public class CardDeck implements ICardDeck<ICard> {
 	@Override
 	public ArrayList<ICard> Deal() {
 		// deal one hand's worth of cards
+		//TODO could end game when not enough cards left to deal (ie <10 at start of round)
 		if (isEmpty())
 			return null;
 		ArrayList<ICard> hand = new ArrayList<ICard>();

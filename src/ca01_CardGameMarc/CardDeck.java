@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ca01_CardGameSolution;
+package ca01_CardGameMarc;
 
 import java.util.*;
 /**
@@ -134,7 +134,7 @@ public class CardDeck implements ICardDeck<ICard> {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         
-        Iterator iter = _deck.iterator();
+        Iterator<ICard> iter = _deck.iterator();
         while(iter.hasNext())
         {
             sb.append((ICard)iter.next()).append("\n");

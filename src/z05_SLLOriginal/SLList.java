@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package z05_OriginalExample;
+package z05_SLLOriginal;
 
 /**
  *

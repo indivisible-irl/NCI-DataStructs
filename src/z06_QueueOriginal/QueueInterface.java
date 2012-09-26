@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package z06_OriginalExample;
+package z06_QueueOriginal;
 
 /**
  *

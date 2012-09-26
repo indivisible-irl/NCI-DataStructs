@@ -1,6 +1,6 @@
 package t04_Stacks;
 
-import java.util.Collections;
+//import java.util.Collections;
 import java.util.EmptyStackException;
 import java.util.Iterator;
 import java.util.Stack;

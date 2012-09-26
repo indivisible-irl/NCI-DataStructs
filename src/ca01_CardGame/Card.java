@@ -10,6 +10,7 @@ public class Card implements ICard {
 	private char suit;
 	private char value;
 	// compile at class root and make final to same re-compiling and multiple instances
+	//    unnecessary but nice addition (overkill? go simple instead?)
 	private final Pattern p = Pattern.compile("[akqj]");
 	
 	//// constructor
@@ -28,6 +29,7 @@ public class Card implements ICard {
 
 	@Override
 	public int suitValue() {
+		// good addition. know switch works for char type
 		switch (suit){
 		case 'h':
 			return 4;
@@ -85,6 +87,7 @@ public class Card implements ICard {
 
 	private int charIntToNumValue(char c){
 		//TODO must be a better way to do this but don't have the time to look
+		//    actually not that bad, but his 4 field card is perhaps saving computation later on
 		return Integer.valueOf(String.valueOf(c))+1;
 	}
 }

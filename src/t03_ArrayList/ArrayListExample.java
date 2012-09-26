@@ -67,13 +67,13 @@ public class ArrayListExample {
 		System.out.println("\tSize:  " +list.size());
 		System.out.println("\tItems: " +list.toString());
 	}
-	private static void disp(List<String> list, int call, int index){
-		System.out.println("=============================== Call: " +String.format("%02d", call)+ " ==============================");
-		System.out.println("List properties:");
-		System.out.println("\tEmpty: " +list.isEmpty());
-		System.out.println("\tSize:  " +list.size());
-		System.out.println("\tItem "+index+ ": " +list.get(index));
-	}
+//	private static void disp(List<String> list, int call, int index){
+//		System.out.println("=============================== Call: " +String.format("%02d", call)+ " ==============================");
+//		System.out.println("List properties:");
+//		System.out.println("\tEmpty: " +list.isEmpty());
+//		System.out.println("\tSize:  " +list.size());
+//		System.out.println("\tItem "+index+ ": " +list.get(index));
+//	}
 	private static void check(List<String> list, String checkStr){
 		System.out.println("============================================================================================");
 		if(list.contains(checkStr)){
