@@ -8,7 +8,10 @@
 /*
  * Answering the textual part of the question:
  * 
- * I selected an ArrayList as my ADT because of:
+ * I selected a Queue encompassing an ArrayList as my ADT because of:
+ * 	  Queue:
+ * 		- "First in, First out" structure matching the requirements.
+ * 	  ArrayList:
  * 		- its ease of adding objects to the end
  * 		- elasticity (easily vary length)
  * 		- easy access to items through index
@@ -16,9 +19,8 @@
  * 		- experience using them compared to other ADTs
  * 
  * 		- also in case I got short of time or hit errors
- * 			I could just ctrl+c/v from the examples and tutorialscalready done... 
- * 		
- * 
+ * 			I could just ctrl+c/v from the examples and tutorials already done... 
+ * 	
  */
 package ca01_CustServices;
 

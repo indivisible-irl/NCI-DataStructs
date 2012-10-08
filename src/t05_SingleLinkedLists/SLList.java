@@ -13,6 +13,9 @@ public class SLList implements ILinearList {
     
     public SLList() {
     	size = 0;
+    	head = null;
+    	current = null;
+    	previous = null;
     }
 
     //// overrides
